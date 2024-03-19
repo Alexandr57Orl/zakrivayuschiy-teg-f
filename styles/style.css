@@ -47,7 +47,6 @@
   align-items: center;
   font-family: var(--accent-family), sans-serif;
   font-weight: var(--main-weight);
-  align-items: center;
   padding-block-start: clamp(119px, 9.4444vh, 136px);
   margin-block-end: 99px;
   padding-block-end: 25px;
@@ -192,6 +191,7 @@
   padding-block-end: 1em;
 }
 
+/* реализация кнопки лайк */
 .card__like-button {
   font-size: 14px;
   min-width: 130px;
@@ -199,10 +199,6 @@
   font-family: var(--accent-family);
   line-height: 90%;
   margin-block-end: 5px;
-}
-
-/* реализация кнопки лайк */
-.card__like-button {
   min-height: 38px;
   border: 2px solid var(--accent-color);
   background-color: inherit;
@@ -272,11 +268,9 @@
   padding: 16px;
 }
 .memory__text {
-  padding-inline-start: 12px;
-}
-.memory__text {
   font-family: var(--accent-family);
   font-size: 14px;
+  padding-inline-start: 12px;
 }
 
 /* dialog content */
@@ -322,7 +316,6 @@
   font-family: var(--accent-family);
   text-transform: uppercase;
   font-size: 14px;
-  transition: all 1s ease;
   border: 2px solid var(--accent-color);
 }
 
