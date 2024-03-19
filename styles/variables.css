@@ -10,7 +10,7 @@
   --accent-color: #000000;
   --decor-color: rgb(255, 255, 255);
   --sparks-color: red;
-  --wdth-container: clamp(371px, 50vw, 696px);
+  --wdth-container: clamp(350px, 100%, 700px);
   --btn-hover-color: #ffffff;
   --bckg-gradient: repeating-linear-gradient(
       to right,

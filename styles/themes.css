@@ -33,7 +33,6 @@
   --main-weight: 465;
   --decor-color: #00cc14;
   --btn-hover-color: #000000;
-  --wdth-container: clamp(371px, 50vw, 696px);
   --btn-hover-color: var(--decor-color);
   --bckg-gradient: repeating-linear-gradient(
       to right,

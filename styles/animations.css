@@ -27,6 +27,7 @@
   animation: heart 0.3s ease-in 0.1s;
   transform-origin: center; /*написано для того чтобы анимация происхоида по центру без смещения */
 }
+
 @keyframes heart {
   from {
     transform: scale(1);
@@ -54,6 +55,7 @@
     opacity: 1;
   }
 }
+
 /* ховер и эктив эффекты */
 
 .like-icon .core {
