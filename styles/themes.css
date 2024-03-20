@@ -55,12 +55,9 @@
   :root {
     --bckg-color: #000000;
     --accent-color: #00cc14;
-    --title-weiht: 785;
-    --main-weight: 465;
     --decor-color: #00cc14;
-    --btn-hover-color: #00cc14;
-    --wdth-container: clamp(371px, 50vw, 696px);
-    --btn-hover-color: #ffffff;
+    --btn-hover-color: #000000;
+    --btn-hover-color: var(--decor-color);
     --bckg-gradient: repeating-linear-gradient(
         to right,
         #000,
