@@ -9,6 +9,7 @@
   --main-weight: 400;
   --bckg-color: #ffffff;
   --accent-color: #000000;
+  --btn-hover-color: #ffffff;
   --bckg-gradient: repeating-linear-gradient(
       to right,
       #d3d3d3,
@@ -80,6 +81,7 @@
   :root {
     --bckg-color: #ffffff;
     --accent-color: #000000;
+    --btn-hover-color: #ffffff;
     --bckg-gradient: repeating-linear-gradient(
         to right,
         #d3d3d3,
